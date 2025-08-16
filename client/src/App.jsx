@@ -26,4 +26,4 @@ export default App;
 //https://www.figma.com/design/vWAjka7MDKh3QWfvERF6Mx/QuickStay?node-id=0-1&p=f
 
 //https://www.youtube.com/watch?v=ubM9cX8G_gk&ab_channel=GreatStack
-//51:00
+//1;33
