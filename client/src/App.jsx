@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
+import Footer from './components/Footer';
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
           <Route path='/' element={<Home />} />
         </Routes>
       </div>
+      <Footer />
     </div>)
 }
 
@@ -26,4 +28,4 @@ export default App;
 //https://www.figma.com/design/vWAjka7MDKh3QWfvERF6Mx/QuickStay?node-id=0-1&p=f
 
 //https://www.youtube.com/watch?v=ubM9cX8G_gk&ab_channel=GreatStack
-//2:00
+//2:15
