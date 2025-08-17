@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Footer from './components/Footer';
 import AllRooms from './pages/AllRooms';
 import RoomDetails from './pages/RoomDetails';
+import MyBookings from './pages/MyBookings';
 
 const App = () => {
 
@@ -18,6 +19,7 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/rooms' element={<AllRooms />} />
           <Route path='/rooms/:id' element={<RoomDetails />} />
+          <Route path='/my-bookings' element={<MyBookings />} />
         </Routes>
       </div>
       <Footer />
@@ -32,4 +34,4 @@ export default App;
 //https://www.figma.com/design/vWAjka7MDKh3QWfvERF6Mx/QuickStay?node-id=0-1&p=f
 
 //https://www.youtube.com/watch?v=ubM9cX8G_gk&ab_channel=GreatStack
-//3:26
+//3:48
