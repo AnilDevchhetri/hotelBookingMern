@@ -4,6 +4,7 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import Footer from './components/Footer';
 import AllRooms from './pages/AllRooms';
+import RoomDetails from './pages/RoomDetails';
 
 const App = () => {
 
@@ -16,6 +17,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/rooms' element={<AllRooms />} />
+          <Route path='/rooms/:id' element={<RoomDetails />} />
         </Routes>
       </div>
       <Footer />
@@ -30,4 +32,4 @@ export default App;
 //https://www.figma.com/design/vWAjka7MDKh3QWfvERF6Mx/QuickStay?node-id=0-1&p=f
 
 //https://www.youtube.com/watch?v=ubM9cX8G_gk&ab_channel=GreatStack
-//2:15
+//3:26
