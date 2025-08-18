@@ -8,6 +8,9 @@ import RoomDetails from './pages/RoomDetails';
 import MyBookings from './pages/MyBookings';
 import HotelReg from './components/HotelReg';
 import Layout from './pages/hotelOwner/Layout';
+import Dashboard from './pages/hotelOwner/Dashboard';
+import AddRoom from './pages/hotelOwner/AddRoom';
+import ListRoom from './pages/hotelOwner/ListRoom';
 
 const App = () => {
 
@@ -26,6 +29,9 @@ const App = () => {
           <Route path='/my-bookings' element={<MyBookings />} />
           {/* admin owner routs */}
           <Route path='/owner' element={<Layout />}>
+            <Route index element={<Dashboard />} />
+            <Route path='add-room' element={<AddRoom />} />
+            <Route path='list-room' element={<ListRoom />} />
 
           </Route>
         </Routes>
@@ -42,4 +48,4 @@ export default App;
 //https://www.figma.com/design/vWAjka7MDKh3QWfvERF6Mx/QuickStay?node-id=0-1&p=f
 
 //https://www.youtube.com/watch?v=ubM9cX8G_gk&ab_channel=GreatStack
-//3:10:23
+//4:18
